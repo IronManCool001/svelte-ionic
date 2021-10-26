@@ -2,6 +2,10 @@ This is the svelteionic template bootstraped by sapper.
 
 Make sure to change the appID in the capacitor.config.json
 
+You can check the web version at https://svelte-ionic.vercel.app/
+<Br/>
+You can also check the android version by downloading it from the Releases section.
+
 # Installing the dependencies
 Enter the following command to install the dependencies:
 npm i or yarn i (Based on your package manager)
