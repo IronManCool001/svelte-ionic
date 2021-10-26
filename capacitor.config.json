@@ -1,0 +1,6 @@
+{
+  "appId": "com.technicalfriend.svelteionic",
+  "appName": "svelteIonic",
+  "webDir": "__sapper__\\export",
+  "bundledWebRuntime": false
+}

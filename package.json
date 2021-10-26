@@ -1,0 +1,34 @@
+{
+  "name": "svelteionic",
+  "description": "svelte+ionic",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev --hot=false",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "ionic:build": "sapper build && sapper export"
+  },
+  "dependencies": {
+    "@capacitor/android": "3.2.5",
+    "@capacitor/app": "^1.0.5",
+    "@capacitor/core": "^3.2.5",
+    "@capacitor/haptics": "^1.1.2",
+    "@capacitor/keyboard": "^1.1.2",
+    "@capacitor/status-bar": "^1.0.5",
+    "compression": "^1.7.1",
+    "polka": "next",
+    "sirv": "^1.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^3.2.5",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.0.0",
+    "sapper": "^0.28.0",
+    "style-loader": "^2.0.0",
+    "svelte": "^3.17.3",
+    "svelte-loader": "^3.0.0",
+    "webpack": "^4.46.0",
+    "webpack-modules": "^1.0.0"
+  }
+}

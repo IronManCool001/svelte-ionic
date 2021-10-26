@@ -1,0 +1,7 @@
+{
+  "name": "svelteIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
