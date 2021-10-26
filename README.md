@@ -22,11 +22,11 @@ Type the following cmmands in your cmd/cli to run the app in Android Studio:
 <br>
 Make sure to set the set Android Gradle Plugin Version as 3.6.1 and Gradle version as 6.2.1 in the Project Structure from the file menu of Android Studio oor your app may not compile.
 <br/>
+Also make sure to initialise the Android platform by the following command: ionic cap platform add android
+<br/>
 You can either use the following single command: npm run Android or use a set of commands for running the project in Android Studio:
 <br/>
 ionic build
-<br/>
-ionic cap platform add android
 <br/>
 ionic cap copy
 <br/>
