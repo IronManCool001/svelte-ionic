@@ -7,7 +7,8 @@
     "build": "sapper build",
     "export": "sapper export",
     "start": "node __sapper__/build",
-    "ionic:build": "sapper build && sapper export"
+    "ionic:build": "sapper build && sapper export",
+    "Android":"ionic build && ionic cap copy && ionic cap sync"
   },
   "dependencies": {
     "@capacitor/android": "3.2.5",
