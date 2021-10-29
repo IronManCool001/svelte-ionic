@@ -24,7 +24,6 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^3.2.5",
-    "css-loader": "^6.4.0",
     "file-loader": "^6.0.0",
     "sapper": "^0.28.0",
     "style-loader": "^2.0.0",
